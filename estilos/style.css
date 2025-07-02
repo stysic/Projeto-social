@@ -35,6 +35,20 @@ iframe#tela {
     left: 22px;
     width: 269px;
     height: 471px;
-
-    
+}
+section#sm {
+    text-align: right;
+}
+section#sm img {
+    width: 50px;
+    margin: 8px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.459);
+    box-sizing: border-box;
+}
+section#sm img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+    transition: transform .3s, border .2s;
 }
